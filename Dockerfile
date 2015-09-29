@@ -8,7 +8,7 @@ EXPOSE :4647
 
 EXPOSE :4648
 
-copy nomad /nomad
+COPY nomad /nomad
 
 ENTRYPOINT ["/nomad"]
 
